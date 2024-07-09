@@ -22,3 +22,7 @@ API_KEY="your cohere api key"
 
   Pre-requisite: squalite >=3.35
   python 3.10
+
+
+Running python populate_data.py will create a folder name as specified in code as "chroma" which will contain vector converted form of data of pdf
+It has internal cache mechanism so it would be creating a __pycache__ file as well
